@@ -1,3 +1,31 @@
-h1 {
-    text-align: center;
+body {
+    font-size: 22px;
+}
+
+h1,
+h2 {
+    color: blue;
+}
+
+
+p {
+    color: blueviolet;
+}
+
+/* p span {
+    text-transform: uppercase;
+    background-color: chartreuse;
+} */
+
+.highlight {
+    text-transform: uppercase;
+    background-color: chartreuse;
+}
+
+.gray {
+    color: gray;
+}
+
+#second {
+    font-style: italic;
 }
