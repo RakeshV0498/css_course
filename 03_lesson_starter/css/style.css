@@ -2,4 +2,10 @@ body {
     font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
+    background-color: #83BFFF;
+    color: rgba(4, 4, 102, 0.804);
+}
+
+p {
+    color: rgba(13, 13, 229, 0.895);
 }
