@@ -1,0 +1,20 @@
+body {
+    padding: 10%;
+    font-size: 2rem;
+}
+
+p {
+    /* text-decoration: line-through; */
+    text-transform: capitalize;
+    /* text-transform: lowercase;
+    text-transform: uppercase;
+ */
+    text-align: left;
+    text-indent: 2em;
+    line-height: 1.5;
+    letter-spacing: 5px;
+    word-spacing: 0.1em;
+    font-weight: 500;
+    /* font-style: oblique; */
+    font-family: 'Roboto', sans-serif;
+}
