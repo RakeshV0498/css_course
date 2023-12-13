@@ -5,3 +5,25 @@ body {
     font-size: 2rem;
     font-family: 'Roboto', sans-serif;
 }
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: hsl(271, 76%, 53%);
+    text-transform: capitalize;
+}
+
+a:visited {
+    color: brown;
+}
+
+a:hover,
+a:focus {
+    color: hsl(250, 76%, 53%);
+    /* opacity: 0.6; */
+}
+
+a:active {
+    color: crimson;
+
+}
