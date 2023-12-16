@@ -3,5 +3,52 @@
 body {
   font-size: 2rem;
   font-family: "Roboto", sans-serif;
+
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* p {
+  background-color: gray;
+}
+
+.opposite {
+  display: inline-block;
+  background-color: #333;
+  color: whitesmoke;
+  margin-top: 100px;
+  height: 200px;
+  padding: 2rem;
+} */
+
+nav {
+  background-color: rgba(1, 6, 6, 0.689);
+}
+
+ul {
+  list-style-type: none;
+  text-align: right;
+  padding: 0.5rem;
+}
+
+li {
+  display: inline-block;
+  margin-inline: 0.5rem;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+}
+
+li a:hover,
+li a:focus {
+  text-decoration: underline gold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+  text-transform: uppercase;
+}
